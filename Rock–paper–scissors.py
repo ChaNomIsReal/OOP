@@ -84,6 +84,7 @@ class Game:
                 self.draw_text(f"Computer: {self.computer_choice}", 30, WIDTH * 3 // 4, HEIGHT // 2)
                 self.draw_text(result, 40, WIDTH // 2, HEIGHT * 3 // 4)
                 self.player_choice = None
+                self.computer_choice = None
                 self.draw_text("Resetting game...", 30, WIDTH // 2, HEIGHT - 50, color=RED)
                 pygame.display.flip()
                 pygame.time.wait(3000)
